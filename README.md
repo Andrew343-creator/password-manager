@@ -1,5 +1,6 @@
  How to use the tool:
-        (1)Install mysql; Then create a Database.
+        
+	(1)Install mysql; Then create a Database.
 
         (2)Install the following modules in python:
             mysql.connector
