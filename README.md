@@ -26,9 +26,9 @@ We use password based encryption for key management.
 @@@@ Set the 2 Factor Authentication @@@@@@@@
 The user will set the 2 Factor-Authentication key password so as to encrypt the key that generates the code which is later embedded as a Qrcode.
 
-@@@@ Generation Of The Qrcode  @@@@@
+ #####Generation Of The Qrcode #####
 The user is required to enter the 2-Factor authentication key password. Once the password is correct . A Qrcode is generated. The qrcode contains a time based code that should only be correct once the 2-Factor authentication key password entered is correct. 
 
-@@@@ Authentication @@@@
+##### Authentication #####
 For the user to access the main password manager he /she must firstly be verified using 2-factor authentication. This requires the user to have the correct master username , password and key password to be correct. Then the user can now access the password manager.
 
