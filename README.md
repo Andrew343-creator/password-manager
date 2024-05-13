@@ -1,3 +1,31 @@
+ How to use the tool:
+        (1)Install mysql; Then create a Database.
+
+        (2)Install the following modules in python:
+            mysql.connector
+            os
+            cryptography
+	    Os 
+ 	    Base64
+ 	    Binascii
+ 	    Mysql.connector
+ 	    Time
+ 	    Pyotp
+ 	    Qrcode
+	    PIL  Image
+
+        (3)Replace the password and user for the connection to server i.e cnx = mysql.connector.connect( user = 'Your username',password = 'Your_password',host= 'Your_host',database = 'mydatabase')
+	
+	(4)Install google authenticator on your phone. This is for 2-Factor-Authetication purposes for maximum security.
+############################################################################################################################    
+After completing the tasks above you can now store your passwords successfully. Good luck
+
+Remember Do Not Repeat The Same Username or Account or Site for the Same Password!!! For if you do that the previous password will be replaced.
+
+
+
+
+
 ########### Developed by Pow3r T3am A.K.A  Rob-DuckSec #############################
 
 This tool is used to store passwords securely. The tool uses python modules:
